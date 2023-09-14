@@ -1,15 +1,13 @@
 # Crystal Range Seekbar
-[![](https://jitpack.io/v/luongvo/crystal-range-seekbar.svg)](https://jitpack.io/#luongvo/crystal-range-seekbar)
+[![](https://jitpack.io/v/hahn/crystal-range-seekbar.svg)](https://jitpack.io/#hahn/crystal-range-seekbar)
 
-An extended version of seekbar and range seekbar with basic and advanced customization.
-
-![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6cnh3MXY3TWstQWM)
+Please don't use this abandoned project. We only update this lib to support Androidx.
 
 # Usage
 Add a dependency to your `build.gradle`:
 ```groovy
 dependencies {
-    implementation 'com.github.luongvo:crystal-range-seekbar:[LATEST_VERSION]'
+    implementation 'com.github.hahn:crystal-range-seekbar:[LATEST_VERSION]'
 }
 ```
 
@@ -20,7 +18,6 @@ dependencies {
 - Creating newly widget from activity, fragment or dialog.
 
 # Sample usage - Seekbar
-![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6eFZkcFZKbWUxY1E)
 
 Default style using xml.
 ```groovy
@@ -48,7 +45,6 @@ Styling with bubble animation using custom widget `BubbleThumbSeekbar`.
     app:data_type="_integer"/>
 ```
 ---
-![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6cHBraW9fUDBMaEU)
 
 Styling with bubble animation with drawable using custom widget `BubbleThumbSeekbar`.
 ```groovy
@@ -67,7 +63,6 @@ Styling with bubble animation with drawable using custom widget `BubbleThumbSeek
     app:data_type="_integer"/>
 ```                    
 ---
-![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6c0FnSDlVYnJyNVE)
 
 Right to Left position (rtl)
 ```groovy
@@ -78,7 +73,6 @@ Right to Left position (rtl)
     app:position="right"/>
 ```                    
 ---
-![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6RncwVndkSFFqMFE)
 
 Right to Left position with drawable position update from code (rtl)
 ```groovy
@@ -103,7 +97,6 @@ final CrystalSeekbar rangeSeekbar = (CrystalSeekbar) rootView.findViewById(R.id.
 rangeSeekbar.setPosition(CrystalSeekbar.Position.RIGHT).apply();
 ```
 ---
-![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6eFZkcFZKbWUxY1E)
 
 Create new seekbar from code and add to any view.
 ```java
@@ -135,7 +128,6 @@ RelativeLayout container = (RelativeLayout) rootView.findViewById(R.id.contRange
 container.addView(rangeSeekbar);
 ```
 ---
-![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6NloxcEJOVTJzQ00)
 
 Styling with create custom widget
 ```java
@@ -201,7 +193,6 @@ public class MySeekbar extends CrystalSeekbar {
 ```
 
 # Sample usage - Range Seekbar
-![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6Q19QMzhoZzZubFE)
 
 Default style using xml.
 ```groovy
@@ -237,7 +228,6 @@ rangeSeekbar.setOnRangeSeekbarFinalValueListener(new OnRangeSeekbarFinalValueLis
 });
 ```
 ---
-![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6UW04d01ORk1Ob0E)
 
 Styling with bubble animation with drawable using custom widget `BubbleThumbRangeSeekbar`.
 ```groovy
@@ -279,7 +269,6 @@ Set minimum range (gap).
     app:data_type="_integer"/>
 ```
 ---
-![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6eXRMQlkzNjA5cDg)
 
 Set fix range (gap).
 ```groovy

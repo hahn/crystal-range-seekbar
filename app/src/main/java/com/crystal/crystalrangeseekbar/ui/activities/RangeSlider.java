@@ -1,18 +1,19 @@
 package com.crystal.crystalrangeseekbar.ui.activities;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.AppCompatDelegate;
 
 
-import com.crystal.crystalrangeseekbar.R;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
+
+import com.crystal.crystalrangeseekbar.app.R;
 import com.crystal.crystalrangeseekbar.adapters.RangeSeekbarPagerAdapter;
 import com.crystal.crystalrangeseekbar.ui.fragments.RangeSeekbar;
 import com.crystal.crystalrangeseekbar.ui.fragments.Seekbar;
+import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +30,7 @@ public class RangeSlider extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.range_slider);
+        setContentView(R.layout.range_seekbar);
 
         init();
     }

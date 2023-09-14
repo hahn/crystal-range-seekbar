@@ -12,7 +12,7 @@ import android.os.Handler;
 import android.util.AttributeSet;
 import android.view.animation.OvershootInterpolator;
 
-import com.example.crystalrangeseekbar.R;
+import com.crystal.crystalrangeseekbar.R;
 
 /**
  * Created by owais.ali on 7/12/2016.
